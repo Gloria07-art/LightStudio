@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    justify-content: 'space-between';
+}
+
+.buttonSection{margin-left:"700%"; justify-content: 'space-between' ;}
+
+.heroSection{
+
+    background-image: url(https://img.freepik.com/free-vector/flat-hotel-building-town_52683-10040.jpg?size=626&ext=jpg&uid=R108253380&ga=GA1.2.296685229.1695975513&semt=ais);
+}
