@@ -6,9 +6,10 @@ export const Home = () => {
   return (
     <div>
       <div className="header">
-        <img src={img} alt="" style={{ width: "5%", height: "10%" }} />
-        <div className="buttonSection">
-          <button>Rooms</button> SignIn <button>SignUp</button>
+        <div className="headerItem" >
+          <img src={img} alt="" style={{ width: "45%", height: "60%" }} /> </div>
+        <div className="headerItem2">
+          <button class="button button1">Rooms</button> <buttom class="button button2">SignIn</buttom> <button class="button button2">SignUp</button>
         </div>
       </div>
       <div className="heroSection">
