@@ -8,4 +8,39 @@
 .heroSection{
 
     background-image: url(https://img.freepik.com/free-vector/flat-hotel-building-town_52683-10040.jpg?size=626&ext=jpg&uid=R108253380&ga=GA1.2.296685229.1695975513&semt=ais);
+}.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.headerItem {
+  flex: '1';
+  border: '2px' solid blue;
+  margin: '10px';
+}
+
+.headerItem2 {
+    display: flex;
+  gap: 10px;
+    
+}
+
+.heroSection {
+
+    background-image: url(https://img.freepik.com/free-vector/flat-hotel-building-town_52683-10040.jpg?size=626&ext=jpg&uid=R108253380&ga=GA1.2.296685229.1695975513&semt=ais);
+    background-size: cover;
+  background-position: center;
+    height: '500%';
+    padding: 2rem;
+    background-color: #cccccc;
+}
+
+.button2 {
+    padding: 18px 52px 19px 45px;
+align-items: center;
+border-radius: 40px;
+border: 1px solid #000;
+    
 }
